@@ -26,8 +26,8 @@ This project serves as a data pipeline for traders and analysts who need accurat
    * TimescaleDB: Create a hypertable using the `timescaledb.sql` script.
 4. Set up the Fyers API:
    * Create an account on the Fyers website and generate API keys.
-   * Update the API keys in the `credentials.ini` file.
-   * Update the database credentials in the `.env` and `credentials.ini` file.
+   * Create a `credentials.ini` and `.env` file in the `config` directory.
+   * Update the database credentials and API key in the `.env` and `credentials.ini` file.
 
 5. Generate the required API token.
     * Run the `generate_token.py` script to generate the API token.

@@ -1,0 +1,11 @@
+requests~=2.31.0
+pandas~=2.1.4
+websocket-client~=1.6.1
+mysql-connector-python~=9.1.0
+influxdb-client~=1.48.0
+sqlalchemy~=2.0.38
+pytz~=2023.3.post1
+yfinance~=0.2.54
+python-dotenv~=1.0.1
+fyers-apiv3
+git+https://github.com/sunnysaxena/my_trade_utils.git
