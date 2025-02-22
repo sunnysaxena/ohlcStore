@@ -5,17 +5,17 @@ from influxdb_client.client.write_api import SYNCHRONOUS
 # MySQL Connection Details
 mysql_config = {
     "host": "localhost",
-    "user": "root",
-    "password": "Root@000###",
-    "database": "fnodatabase",
+    "user": "user",
+    "password": "password",
+    "database": "database",
 }
 
 # InfluxDB Connection Details
 influxdb_config = {
     "url": "http://localhost:8086",
-    "token": "9gp9-kou_VmEWGHf2TQ5pX8V6simo_cBcUBcWS41ey00ueGXg6Bop_MSGDHlVqCeeGTbmgoKEtEVa22sQ_HQrg==",
-    "org": "trading",
-    "bucket": "fnodatabase",
+    "token": "token",
+    "org": "user",
+    "bucket": "database",
 }
 
 

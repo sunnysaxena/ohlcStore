@@ -8,17 +8,17 @@ from trade_utils import timeframe_converter as tc
 
 mysql_config = {
     "host": "localhost",
-    "user": "root",
-    "password": "Root@000###",
-    "database": "fnodatabase",
+    "user": "user",
+    "password": "password",
+    "database": "database",
 }
 
 # InfluxDB Connection Details
 influxdb_config = {
     "url": "http://localhost:8086",
-    "token": "ZRyjI3l560XKSi5ORVEXSPKtExYfm3gvoaFCBbM5qoxzEqXvwbvt_9NzBF_hFxWXhu2nkYjYGaIlb3ljIt5h-w==",
-    "org": "trading",
-    "bucket": "fnodatabase",
+    "token": "token",
+    "org": "user",
+    "bucket": "database",
 }
 
 # Query TOHLCV data from MySQL
